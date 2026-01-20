@@ -1,0 +1,26 @@
+.formRow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.formRow label {
+  width: 100%;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.input {
+  width: 100%;
+  max-width: 100%;
+  display: block;
+  text-align: center;
+  padding: 0.25rem 0.5rem;
+  border-radius: 7px;
+  background-color: #2d5070;
+  color: #ffffff;
+  box-sizing: border-box; 
+}

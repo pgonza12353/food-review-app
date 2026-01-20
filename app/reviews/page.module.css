@@ -1,0 +1,53 @@
+.formRow {
+  max-width: 800px;
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+}
+
+.formRowWide {
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.formColumn {
+  width: 100%;
+  max-width: 100%;
+}
+
+.label {
+  width: 100%;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.textarea,
+.select {
+    background-color: #2d5070;
+    color: #ffffff;
+    border-radius: 7px;
+    padding: 0.5rem;
+    box-sizing: border-box;
+}
+
+.select {
+    width: 100%;
+    text-align: center;
+    align-self: center;
+}
+
+.textarea {
+    width: 100%;
+    min-height: 10px;
+    resize: none;
+}
+
+.range {
+  width: 60%;
+  align-self: center;
+  margin-bottom: 1rem
+}

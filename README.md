@@ -4,18 +4,67 @@
 A full-stack web application that allows users to rate and review restaurants, providing a platform to track food experiences.
 
 ### Tech Stack
-- Node.js
-- Next.js
-- React
-- PostgreSQL
-- Prisma
-- Git
+- Frontend: Next.js + React + Tailwind CSS
+- Backend: Next.js API routes (Node.js)
+- Database: PostgreSQL
+- ORM: Prisma
+- Hosting: Vercel (frontend) + Supabase (backend DB)
+- Version Control: Git + GitHub
 
-### Current Progress
-- Defined Prisma models for backend database integration
-- Building frontend submission pages for restaurants and reviews
+## Current Progress
+- Prisma models and database schema are complete
+- CRUD APIs for restaurants and reviews are implemented
+- UI pages for submitting restaurants and reviews are built
+- Data is stored and retrieved successfully from Postgres
 
-### Next Steps
-- Implement RESTful APIs for backend integration
-- Add user authentication and profile management
-- Expand frontend features and polish UI/UX 
+## Next Steps
+- Add user authentication and profiles
+- Add review filtering and sorting
+- Add more advanced features like search, pagination, and ratings breakdown 
+
+## Clone the repo
+```bash
+git clone https://github.com/pgonza12353/food-review-app
+cd food-review-app
+npm install
+cp .env.example .env
+npx prisma migrate dev
+npm run dev
+```
+
+### IMPORTANT
+Don't commit your real .env file 
+Make sure .env is in .gitignore
+
+### Environment variables
+```bash
+DATABASE_URL=postgres://USER:PASSWORD@HOST:PORT/DATABASE
+SUPABASE_URL="your_supabase_url_here"
+NEXT_PUBLIC_SUPABASE_ANON_KEY="your_supabase_anon_key_here"
+```
+
+### Project Structure
+```bash
+/app
+    /api
+        /restaurants
+        /reviews
+    /components
+        NavBar.tsx
+    /context
+        UserContext.tsx
+    /lib
+        prisma.ts
+        supabaseClient.ts
+    /restaurants
+    /reviews
+/prisma
+    schema.prisma
+```
+
+### Deployment (Vercel)
+1. Push repo to Github
+2. Create new project in Vercel
+3. Connect your Github repo
+4. Add environment variables in Vercel
+5. Deploy

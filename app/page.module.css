@@ -1,0 +1,52 @@
+.selectUser {
+    margin: 1rem 0;
+
+}
+
+.selectUser label {
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+}
+
+.selectUserRow {
+    width: 20%;
+    max-width: 100%;
+    display: block;
+    text-align: center;
+    margin: 0.5rem 0 0.75rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 7px;
+    background-color: #2d5070;
+    color: #ffffff;
+    box-sizing: border-box; 
+}
+
+
+
+.reviewList {
+    margin: 1rem 0 0.25rem;
+    max-width: 100%;
+}
+
+.reviewBox {
+    background-color: #2d5070;
+    color: #ffffff;
+    border-radius: 7px;
+    padding: 0.5rem;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0.5rem auto 1rem;
+}
+
+.reviewHeading {
+    font-style: italic;
+    color: #e0dede;
+    margin-bottom: 0.25rem;
+}
+
+.reviewComment {
+    border-top: 2px dashed #e0dede;
+    padding-top: 0.75rem;
+    margin-bottom: 0.25rem;
+}
