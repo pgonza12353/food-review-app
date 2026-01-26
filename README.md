@@ -1,15 +1,25 @@
 # Food Reviewing App
-
-### Description
 A full-stack web application that allows users to rate and review restaurants, providing a platform to track food experiences.
 
-### Tech Stack
+**Live Demo**: [food-review-app](https://food-review-app-woad.vercel.app)
+
+## Tech Stack
 - Frontend: Next.js + React + Tailwind CSS
 - Backend: Next.js API routes (Node.js)
 - Database: PostgreSQL
 - ORM: Prisma
 - Hosting: Vercel (frontend) + Supabase (backend DB)
 - Version Control: Git + GitHub
+
+## Demo (with demo user)
+### Home (demo user + reviews)
+![Home](./media/home.png)
+
+### Home (empty review submission form)
+![Review](./media/review.png)
+
+### Add Review Flow
+![Add Review](./media/add_review.gif)
 
 ## Current Progress
 - Prisma models and database schema are complete
