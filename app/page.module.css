@@ -3,14 +3,15 @@
 
 }
 
-.selectUser label {
+.selectUser label,
+.reviewList label {
     width: 100%;
     text-align: left;
     font-weight: bold;
 }
 
 .selectUserRow {
-    width: 20%;
+    width: 60%;
     max-width: 100%;
     display: block;
     text-align: center;
@@ -21,8 +22,6 @@
     color: #ffffff;
     box-sizing: border-box; 
 }
-
-
 
 .reviewList {
     margin: 1rem 0 0.25rem;
