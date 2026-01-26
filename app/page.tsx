@@ -4,9 +4,9 @@ import { useUser } from "@/context/UserContext";
 import styles from "./page.module.css";
 
 const TEST_USERS = [
-    { id: 1, name: "Paulo" },
-    { id: 2, name: "Zack" },
-    { id: 3, name: "Marc" }
+    { id: 1, name: "demo_user_1" },
+    { id: 2, name: "demo_user_2" },
+    { id: 3, name: "demo_user_3" }
 ];
 
 export default function Home() {
