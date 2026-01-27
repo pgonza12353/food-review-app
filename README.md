@@ -23,7 +23,7 @@ A full-stack web application that allows users to rate and review restaurants, p
 
 ## Current Progress
 - Prisma models and database schema are complete
-- CRUD APIs for restaurants and reviews are implemented
+- Implemented create + read APIs for restaurants and reviews
 - UI pages for submitting restaurants and reviews are built
 - Data is stored and retrieved successfully from Postgres
 
