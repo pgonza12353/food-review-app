@@ -7,7 +7,7 @@ A full-stack web application that allows users to rate and review restaurants, p
 - Frontend: Next.js + React + Tailwind CSS
 - Backend: Next.js API routes (Node.js)
 - Database: PostgreSQL
-- ORM: Prisma
+- Prisma (schema definition)
 - Hosting: Vercel (frontend) + Supabase (backend DB)
 - Version Control: Git + GitHub
 
@@ -23,14 +23,13 @@ A full-stack web application that allows users to rate and review restaurants, p
 
 ## Current Progress
 - Prisma models and database schema are complete
-- Implemented create + read APIs for restaurants and reviews
+- Implemented CRUD APIs for restaurants and reviews (the UI covers create and read)
 - UI pages for submitting restaurants and reviews are built
 - Data is stored and retrieved successfully from Postgres
 
-## Next Steps
-- Add user authentication and profiles
-- Add review filtering and sorting
-- Add more advanced features like search, pagination, and ratings breakdown 
+## Known Limitations
+- No authentication: users are hardcoded, and the API routes have no access control
+- No filtering, sorting, search, or pagination
 
 ## Clone the repo
 ```bash
