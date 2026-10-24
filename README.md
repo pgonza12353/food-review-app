@@ -21,11 +21,11 @@ A full-stack web application that allows users to rate and review restaurants, p
 ### Add Review Flow
 ![Add Review](./media/add_review.gif)
 
-## Current Progress
-- Prisma models and database schema are complete
-- Implemented CRUD APIs for restaurants and reviews (the UI covers create and read)
-- UI pages for submitting restaurants and reviews are built
-- Data is stored and retrieved successfully from Postgres
+## Features
+- Prisma models and database schema for restaurants, reviews, and users
+- CRUD API routes for restaurants and reviews (the UI covers create and read)
+- Pages for submitting restaurants and reviews, and viewing reviews by user
+- Data stored in and retrieved from Supabase PostgreSQL, deployed on Vercel
 
 ## Known Limitations
 - No authentication: users are hardcoded, and the API routes have no access control
