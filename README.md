@@ -7,7 +7,7 @@ A full-stack web application that allows users to rate and review restaurants, p
 - Frontend: Next.js + React + Tailwind CSS
 - Backend: Next.js API routes (Node.js)
 - Database: PostgreSQL
-- Prisma (schema definition)
+- Schema: Prisma
 - Hosting: Vercel (frontend) + Supabase (backend DB)
 - Version Control: Git + GitHub
 
